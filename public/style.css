@@ -47,7 +47,6 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
     min-width: 40px;
     display: flex;
-    cursor: pointer;
     justify-content: center;
     align-items: center;
 }

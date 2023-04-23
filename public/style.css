@@ -44,6 +44,7 @@ body {
 .calculator .button span {
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
     min-width: 40px;
     display: flex;

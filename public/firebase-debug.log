@@ -60,3 +60,12 @@ You're about to initialize a Firebase project in this directory:
 [info] 
 [info] +  Success! Logged into GitHub as prashantv9 
 [info] 
+[debug] [2023-04-23T05:18:41.233Z] >>> [apiv2][query] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key type=owner
+[debug] [2023-04-23T05:18:41.696Z] <<< [apiv2][status] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key 401
+[debug] [2023-04-23T05:18:41.696Z] <<< [apiv2][body] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-04-23T05:20:31.286Z] >>> [apiv2][query] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key type=owner
+[debug] [2023-04-23T05:20:31.811Z] <<< [apiv2][status] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key 401
+[debug] [2023-04-23T05:20:31.811Z] <<< [apiv2][body] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-04-23T05:20:32.733Z] >>> [apiv2][query] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key type=owner
+[debug] [2023-04-23T05:20:33.218Z] <<< [apiv2][status] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key 401
+[debug] [2023-04-23T05:20:33.219Z] <<< [apiv2][body] GET https://api.github.com/repos/prashantv9/calculator/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}

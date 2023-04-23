@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #edf1f4;
+}
+
+.calculator {
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
+}
+
+.calculator .button,
+.calculator .button span {
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    display: grid;
+    border-radius: 10px;
+}
+
+.calculator .button #value {
+    grid-column: span 4;
+    width: 100%;
+    text-align: end;
+    color: #5166d6;
+    height: 100px;
+    line-height: 100px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+.calculator .button span {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator .button span#plus,
+.calculator .button span#equal {
+    grid-row: span 2;
+    background: #3a4452;
+    color: #fff;
+}
+
+.calculator .button span#clear,
+.calculator .button span#Delete,
+.calculator .button span#open {
+    background: #3a4452;
+    color: #fff;
+}
+
+.calculator .button span:active,
+.calculator .button span#plus:active,
+.calculator .button span#equal:active,
+.calculator .button span#clear:active,
+.calculator .button span#Delete:active,
+.calculator .button span#open:active {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff, inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    color: #36c1b1;
+}
